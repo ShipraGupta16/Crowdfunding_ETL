@@ -15,17 +15,17 @@ Create the Crowdfunding Database
 ### Created the Category and Subcategory DataFrames
 1) Extracted and transformed the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
 
- - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
+    - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
 
- - A "category" column that contains only the category titles
+    - A "category" column that contains only the category titles
 
 2) Exported out the category DataFrame as category.csv and saved it to my GitHub repository.
 
 3) Extracted and transformed the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
 
- - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
+    - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
 
- - A "subcategory" column that contains only the subcategory titles
+    - A "subcategory" column that contains only the subcategory titles
 
 4) Exported out the subcategory DataFrame as subcategory.csv and saved it to my GitHub repository.
 
@@ -77,24 +77,14 @@ When I chose Option 2, I did in two ways. One was using the following steps:
 
 ### Create the Crowdfunding Database, related tables and keys
  - Used the four CSV files to sketch an ER Diagram of the tables by using QuickDBDLinks.
-
  - Used the given information from the ER Diagram to create a table schema for each CSV file.
-
  - Specified the data types, primary keys, foreign keys, and other constraints.
-
  - Saved the database schema as a Postgres file named crowdfunding_db_schema.sql, and save it to your GitHub repository.
-
  - Created a new Postgres database, named crowdfunding_db.
-
  - Using the database schema, created the tables in the correct order to handle the foreign keys.
-
  - Verified the table creation by running a SELECT statement for each table.
-
  - Imported each CSV file into its corresponding SQL table.
-
  - Verified that each table has the correct data by running a SELECT statement for each(screenshots).
-
-
 
 
 
