@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This mini project is a about building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, we create four CSV files and use the CSV file data to create an ER Diagram and a table schema. Finally, uploaded the CSV file data into a Postgres database.
+This mini project is a about building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, we create four CSV files and use the CSV file data to create an ER Diagram and a table schema. Finally, uploaded the CSV file data into a Postgres database. The analysis file is ETL_Mini_Project_SGupta_Code2.ipynb mainly.
 
 ### Step-by-step instructions
 The instructions for this mini project are divided into the following subsections:
@@ -71,7 +71,7 @@ When I chose Option 2, I did in two ways. One was using the following steps:
  - Split each "name" column value into a first and a last name, and placed each in a new column.
  - Cleaned and then exported the DataFrame as contacts.csv and saved it to my GitHub repository.
 
- Another method is using str_extract method with same regex pattern in file ETL_Mini_Project_Code2.ipynb file.
+ Another method is using str_extract method with same regex pattern in file ETL_Mini_Project_SGupta_Code2.ipynb file.
 
 
 
