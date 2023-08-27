@@ -71,7 +71,7 @@ When I chose Option 2, I did in two ways. One was using the following steps:
  - Split each "name" column value into a first and a last name, and placed each in a new column.
  - Cleaned and then exported the DataFrame as contacts.csv and saved it to my GitHub repository.
 
- Another method is using str_extract method with same regex pattern.
+ Another method is using str_extract method with same regex pattern in file ETL_Mini_Project_Code2.ipynb file.
 
 
 
